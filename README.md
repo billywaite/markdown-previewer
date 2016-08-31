@@ -1,1 +1,1 @@
-# markdown-previewer
+# Markdown previewer built with Sass and React

@@ -1,0 +1,15 @@
+$backgroundColor: #FDEECF;
+$leftColor: #FDD0BC;
+$rightColor: #EDB4B5;
+$fontColor: #CB86A0;
+
+body {
+	background-color: $backgroundColor;
+	color: $fontColor;
+}
+#left {
+	background-color: $leftColor;
+}
+#right {
+	background-color: $rightColor;
+}

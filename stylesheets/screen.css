@@ -1,0 +1,15 @@
+/* line 6, ../sass/screen.scss */
+body {
+  background-color: #FDEECF;
+  color: #CB86A0;
+}
+
+/* line 10, ../sass/screen.scss */
+#left {
+  background-color: #FDD0BC;
+}
+
+/* line 13, ../sass/screen.scss */
+#right {
+  background-color: #EDB4B5;
+}

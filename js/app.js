@@ -12,10 +12,10 @@ var InputDisplay = React.createClass({
   render: function() {
     return (
       <div className="row">
-        <div className="small-5 small-offset-1 columns">
-          <textarea rows="25" value={this.state.value} onChange={this.handleChange}></textarea>
+        <div id="left" className="col-sm-offset-2 col-sm-4">
+          <textarea rows="25" cols="75" value={this.state.value} onChange={this.handleChange}></textarea>
         </div>
-        <div className="small-5 small-offset-1 columns">
+        <div id="right" className="col-sm-4">
           <MarkupDisplay display={this.state.value} />
         </div>
       </div>
