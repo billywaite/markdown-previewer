@@ -13,7 +13,7 @@ var InputDisplay = React.createClass({
     return (
       <div className="row">
         <div id="left" className="col-sm-offset-2 col-sm-4">
-          <textarea rows="25" cols="75" value={this.state.value} onChange={this.handleChange}></textarea>
+          <textarea rows="25" cols="47" value={this.state.value} onChange={this.handleChange}></textarea>
         </div>
         <div id="right" className="col-sm-4">
           <MarkupDisplay display={this.state.value} />

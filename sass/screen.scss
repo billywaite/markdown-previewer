@@ -1,15 +1,21 @@
-$backgroundColor: #FDEECF;
-$leftColor: #FDD0BC;
-$rightColor: #EDB4B5;
-$fontColor: #CB86A0;
+$colors: (
+  'primary': #8e3329, 
+  'accent': #d98328,
+  'secondary': #5a1321,
+  'foreground': #191919,
+  'background': #e9e9e9
+);
+
+@function colors($key: 'primary') {
+  @return map-get($colors, $key);
+}
 
 body {
-	background-color: $backgroundColor;
-	color: $fontColor;
+	text-align: center;
 }
-#left {
-	background-color: $leftColor;
-}
+
 #right {
-	background-color: $rightColor;
+	color: colors('secondary');
+	border-radius: 5px;
+	border: .5px solid;
 }
